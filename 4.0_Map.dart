@@ -1,5 +1,7 @@
 void main() {
   // map --> key,value pair
+  // n Dart, a Map is a collection that associates keys with values. Each key in a Map must be unique,
+  //and the keys are used to retrieve their corresponding values.
   Map<int, int> keys = {1: 1, 2: 2, 3: 3};
   print(keys);
 
