@@ -8,7 +8,8 @@ void main() {
   Map<String, int> friendsAge = {"hasan": 21, "rahat": 22};
   print(friendsAge);
   print(friendsAge["hasan"]);
-
+  
+  // Map within Map
   Map<int, Map<String, int>> id = {
     2122020030: {"Hasan": 21},
     2122020020: {"Rahat": 22}
